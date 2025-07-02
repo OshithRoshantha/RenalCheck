@@ -11,7 +11,7 @@ RenalCheck is an advanced data science project that leverages machine learning a
 ```
 RenalCheck/
 ├── app/
-│   └── main.py                 # Streamlit web application
+│   └── main.py                
 ├── data/
 │   ├── raw/
 │   │   └── kidney_disease_dataset.csv
@@ -19,17 +19,17 @@ RenalCheck/
 │       ├── cleanedData.csv
 │       └── processedData.csv
 ├── model/
-│   ├── bestModel.pkl          # Trained model
-│   ├── labelEncoder.pkl       # Label encoder
-│   ├── scaler.pkl            # Feature scaler
-│   └── metadata.pkl          # Model metadata
+│   ├── bestModel.pkl         
+│   ├── labelEncoder.pkl      
+│   ├── scaler.pkl            
+│   └── metadata.pkl         
 ├── notebooks/
-│   ├── EDA.ipynb             # Exploratory Data Analysis
+│   ├── EDA.ipynb            
 │   ├── Feature_Engineering.ipynb
 │   ├── Preprocessing.ipynb
-│   └── Train_Evaluate.ipynb  # Model training & evaluation
+│   └── Train_Evaluate.ipynb  
 ├── reports/
-│   └── figures/              # Generated visualizations
+│   └── figures/              
 └── README.md
 ```
 
@@ -44,8 +44,7 @@ RenalCheck/
 2. **Create virtual environment**:
    ```bash
    python -m venv venv
-   venv\Scripts\activate  # Windows
-   # source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate 
    ```
 
 3. **Install dependencies**:
